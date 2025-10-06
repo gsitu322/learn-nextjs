@@ -8,14 +8,15 @@
     <script type="text/jsx">
       const app = document.getElementById("app");
 
-      function Header() {
-        return <h1>Develop. Preview. Ship.</h1>;
+      function Header({title}) {
+        return <h1>{title ? title : "Default title"}</h1>;
       }
 
       function HomePage() {
         return (
           <div>
-            <Header />
+            <Header title="React" />
+            <Header title="This is a header" />
           </div>
         );
       }
