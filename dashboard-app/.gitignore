@@ -1,0 +1,50 @@
+# Dependencies
+/node_modules
+
+# Build output
+/.next
+/out
+
+# Production
+/build
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: lock files (if using a different package manager)
+# Uncomment one of these if you use a specific manager
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb
+
+# Next.js cache
+.next/
+.vercel/
+
+# Misc
+coverage/
+*.log
